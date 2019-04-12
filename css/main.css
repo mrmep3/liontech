@@ -1,42 +1,119 @@
-*::-webkit-input-placeholder {
-  color: #666;
-  opacity: 1; }
-
-*:-moz-placeholder {
-  color: #666;
-  opacity: 1; }
-
-*::-moz-placeholder {
-  color: #666;
-  opacity: 1; }
-
-*:-ms-input-placeholder {
-  color: #666;
-  opacity: 1; }
-
 body {
   font-family: "RobotoRegular", sans-serif;
-  font-size: 16px;
-  min-width: 320px;
-  position: relative;
-  background-color: #FFFFFF; }
+  font-size: 16px; }
 
 .hidden {
   display: none; }
 
-.top_header {
-  min-width: 600px;
-  padding-top: 150px;
-  text-align: center; }
+.main_head {
+  min-height: 400px;
+  background-image: url(../img/header1.jpg);
+  -webkit-background-size: auto auto;
+          background-size: auto;
+  background-position: center center; }
+
+section {
+  max-height: 1000px; }
+
+.logo {
+  padding-bottom: 50px; }
+
+svg {
+  height: 170px;
+  width: 170px; }
 
 h1 {
-  text-align: center; }
-
-a {
+  font-size: 75px;
+  font-family: "RobotoBold", sans-serif;
+  font-style: italic;
   color: #000;
-  text-decoration: none;
-  background-color: transparent; }
+  letter-spacing: 4px; }
 
-a:hover {
-  color: #FFCC33;
-  text-decoration: none; }
+h2 {
+  font-size: 20px;
+  font-family: "RoundedMplus1c-Black";
+  font-style: italic;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1px; }
+
+h3 {
+  font-size: 20px;
+  font-family: "RobotoRegular";
+  color: #000;
+  letter-spacing: 1px; }
+
+.text {
+  background-color: rgba(255, 255, 255, 0.65);
+  float: left;
+  padding: 0 40px;
+  margin: -13px -8px 0;
+  -webkit-clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 99%);
+          clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 99%); }
+
+.text2 {
+  background-color: #FBDB04;
+  text-transform: uppercase;
+  float: left;
+  padding: 6px 40px;
+  margin: -23px -8px 0;
+  -webkit-clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 99%);
+          clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 99%); }
+
+.text3 {
+  padding-bottom: 20px; }
+
+p {
+  font-size: 15px;
+  margin: 0; }
+
+span {
+  font-size: 20px;
+  font-family: "RoundedMplus1c-Black";
+  text-transform: uppercase;
+  color: #000;
+  font-style: italic; }
+
+li {
+  font-size: 15px; }
+
+.data1 {
+  padding: 20px 0;
+  letter-spacing: 1px; }
+
+.img1 {
+  width: 24.13px;
+  margin: -14.4px;
+  float: left;
+  z-index: 2;
+  position: absolute; }
+
+.img2 {
+  width: 24.13px;
+  margin: -14.4px;
+  z-index: 2;
+  position: absolute; }
+
+.right_tab h2 {
+  font-size: 25px;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  margin-left: -15px; }
+
+.spisok {
+  border: 8px #FBDB04 solid;
+  padding: 100px 10px 30px 30px; }
+
+.button {
+  font-size: 30px;
+  font-family: "RoundedMplus1c-Black";
+  font-style: italic;
+  border: none;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  cursor: pointer;
+  background-color: #FBDB04;
+  color: #000;
+  padding: 10px 70px;
+  margin: 20px; }

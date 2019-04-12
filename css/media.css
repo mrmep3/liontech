@@ -12,16 +12,83 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	.button {
+		font-size: 30px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	h1 {
+		font-size: 60px;
+		font-family: "RobotoBold", sans-serif;
+		font-style: italic;
+		color: #000;
+		letter-spacing: 4px;
+	}
+	.img1 {
+		width: 19.5px;
+		margin: -12.5px -13px;
+		float: left;
+		position: absolute;
+	}
+	.img2 {
+		width: 19.5px;
+		margin: -67px 42px;
+		float: right;
+		position: relative;
+	}
+	.text {
+		background-color: rgba(255,255,255,0.65);
+		float: left;
+		padding: 0 40px;
+		margin: -11px -11px 0;
+		clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+	}
+	.button {
+		font-size: 27px;
+	}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	h1 {
+		font-size: 40px;
+		font-family: "RobotoBold", sans-serif;
+		font-style: italic;
+		color: #000;
+		letter-spacing: 4px;
+	}
+	.img1 {
+		width: 13.1px;
+		margin: -12.5px -13px;
+		float: left;
+		position: absolute;
+	}
+	.img2 {
+		width: 13.1px;
+		margin: -12px -16px;
+		float: right;
+		position: relative;
+	}
+	.text {
+		background-color: rgba(255,255,255,0.65);
+		float: left;
+		padding: 0 40px;
+		margin: -11px -11px 0;
+		clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 99%);
+	}
+	.button {
+		font-size: 18px;
+		padding: 10px 30px;
+	}
+	.spisok {
+		padding: 130px 10px 30px 30px;
+		margin-right: 0;
+	}
+	.right_tab h2 {
+		margin-right: 40px;
+	}
 
 }
 
