@@ -48,6 +48,9 @@
 	.button {
 		font-size: 27px;
 	}
+	.button_wrapper {
+		text-align: right;
+	}
 }
 
 /* Custom, iPhone Retina */
