@@ -1,0 +1,30 @@
+.st-contents,
+.mv-container {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.mv-event-container {
+    top: 25px;
+}
+
+.subscribe-image {
+    display: none;
+}
+
+.footer {
+    font-size: 100%;
+}
+
+.tab-name {
+    display: none;
+}
+
+#td-print-image-id {
+    display: none;
+}
+
+.st-dtitle {
+    line-height: 25px;
+    font-size: 17px;
+}
